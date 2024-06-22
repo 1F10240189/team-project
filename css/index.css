@@ -1,3 +1,28 @@
-.index_ramen {
-  width: 70%;
+.main_picture {
+  height: 300px;
+  position: relative;
+}
+
+.contents {
+  display: flex;
+}
+
+.contents_side {
+  padding: 20px;
+  margin-right: 60px;
+}
+
+.main_picture img {
+  height: 300px;
+}
+
+.main_picture {
+  position: relative;
+}
+
+.main_picture p {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 25%;
 }
