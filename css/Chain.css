@@ -1,0 +1,111 @@
+div.name{
+    font-family: serif;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-bottom: 2px;
+}
+
+img.a{
+    width: 400px;
+    height: 400px;
+}
+
+img.b{
+    width: 300px;
+    height: 200px;
+}
+
+.midasi{
+    font-family: serif ;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    background-color: #f27a73
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.image {
+    flex: 1;
+    max-width: 50%;
+    padding: 0;
+    margin-right: 3;
+}
+.info {
+    flex: 1;
+    max-width: 50%;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.info p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.info h1{
+    margin-bottom: 0;
+}
+
+.image img {
+    width: 70%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex; 
+    align-items: flex-start; 
+}
+
+.main {
+    display: flex; 
+    width: 300px;
+    height: 150px;
+}
+
+.images img {
+    margin-right: 10px; 
+}
+
+.topping {
+    margin-left: 30px; 
+}
+
+p{
+    font-family: serif;
+}
+
+.kutikomi{
+    font-family: serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.san{
+    font-family: serif;
+    margin-top:20px;
+    margin-bottom:0px;
+}
+
+.last{
+    font-family: serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: solid 3px #070707
+}
+
+div.tokutyou{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
