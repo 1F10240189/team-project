@@ -51,23 +51,91 @@ body {
   color: #ffd7ba;
 }
 
-.main_picture img {
-  margin: -20px;
-  width: 170%;
-  height: 250px;
-  object-fit: cover;
+.main_picture {
+  position: relative;
+  height: 50vh;
+  overflow: hidden;
+  margin-left: -20px;
 }
 
-.main_picture {
-  height: 300px;
-  position: relative;
+.main_picture .img {
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: imgFade-chg-img-anim 45s infinite;
+}
+
+.main_picture.imgFade .img:nth-of-type(1) {
+  animation-delay: 0s;
+}
+
+.main_picture.imgFade .img:nth-of-type(2) {
+  animation-delay: 5s;
+}
+
+.main_picture.imgFade .img:nth-of-type(3) {
+  animation-delay: 10s;
+}
+
+.main_picture.imgFade .img:nth-of-type(4) {
+  animation-delay: 15s;
+}
+
+.main_picture.imgFade .img:nth-of-type(5) {
+  animation-delay: 20s;
+}
+
+.main_picture.imgFade .img:nth-of-type(6) {
+  animation-delay: 25s;
+}
+
+.main_picture.imgFade .img:nth-of-type(7) {
+  animation-delay: 30s;
+}
+
+.main_picture.imgFade .img:nth-of-type(8) {
+  animation-delay: 35s;
+}
+
+.main_picture.imgFade .img:nth-of-type(9) {
+  animation-delay: 40s;
+}
+
+@keyframes imgFade-chg-img-anim {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+    z-index: 3;
+  }
+  33% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    z-index: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .main_title p {
   position: absolute;
   color: white;
-  top: 0%;
-  left: 0%;
+  top: 10%;
+  left: 5%;
   font-size: 60px;
   font-weight: bold;
+  z-index: 10;
+}
+
+.main_about {
+  margin-top: 40px;
 }
