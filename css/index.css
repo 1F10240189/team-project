@@ -11,11 +11,6 @@ body {
   box-sizing: border-box;
 }
 
-.main_picture {
-  height: 300px;
-  position: relative;
-}
-
 .contents {
   display: flex;
   overflow: hidden;
@@ -27,8 +22,14 @@ body {
 }
 
 .contents_main a {
-  color: #cf352e;
+  color: black;
+  transition: all 0.3s ease 0s;
   text-decoration: none;
+}
+
+.contents_main a:hover {
+  cursor: pointer;
+  color: #cf352e;
 }
 
 .contents_side {
@@ -41,7 +42,13 @@ body {
 
 .contents_side a {
   color: white;
+  transition: all 0.3s ease 0s;
   text-decoration: none;
+}
+
+.contents_side a:hover {
+  cursor: pointer;
+  color: #ffd7ba;
 }
 
 .main_picture img {
@@ -52,10 +59,11 @@ body {
 }
 
 .main_picture {
+  height: 300px;
   position: relative;
 }
 
-.main_picture p {
+.main_title p {
   position: absolute;
   color: white;
   top: 0%;
