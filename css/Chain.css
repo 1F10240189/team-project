@@ -1,5 +1,5 @@
-div.name{
-    font-family: serif;
+.name{
+    font-family: sans-serif;
     font-size: 30px;
     margin-left: 60px;
     margin-bottom: 2px;
@@ -16,10 +16,12 @@ img.b{
 }
 
 .midasi{
-    font-family: serif ;
+    font-size:35px;
+    text-decoration: underline;
+    font-family: sans-serif ;
     margin-bottom: 3px;
     margin-top: 3px;
-    background-color: #f27a73
+    background-color: #db9793
 }
 
 .info-container {
@@ -31,11 +33,10 @@ img.b{
 }
 
 .image {
-    flex: 1;
-    max-width: 50%;
-    padding: 0;
-    margin-right: 3;
+    display: flex;
+    max-width: 60%;
 }
+
 .info {
     flex: 1;
     max-width: 50%;
@@ -63,23 +64,8 @@ img.b{
     margin-right: 10px;
 }
 
-.container {
-    display: flex; 
-    align-items: flex-start; 
-}
-
-.main {
-    display: flex; 
-    width: 300px;
-    height: 150px;
-}
-
 .images img {
     margin-right: 10px; 
-}
-
-.topping {
-    margin-left: 30px; 
 }
 
 p{
@@ -109,3 +95,12 @@ div.tokutyou{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+th, td {
+    text-align: left;
+    padding-left: 10px;
+  }
