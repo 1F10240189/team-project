@@ -1,12 +1,14 @@
 @font-face {
-  font-family: "LINESeedJP_OTF_Rg";
-  src: url("font/LINESeedJP_OTF_Rg") format("woff");
+  font-family: "LINESeedJP_OTF_Bd";
+  src: url("../font/LINESeedJP_OTF_Bd.woff") format("woff");
 }
 
 body {
-  font-family: "LINESeedJP_OTF_Rg";
-  margin: -1px;
+  font-family: "LINESeedJP_OTF_Bd";
+  margin: 0 auto;
   padding: -1px;
+  min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .main_picture {
@@ -31,8 +33,8 @@ body {
 
 .contents_side {
   background-color: #cf352e;
-  padding: 20px;
-  margin-right: 60px;
+  padding: 40px;
+  margin-right: 20px;
   padding-bottom: 10000px;
   margin-bottom: -10000px;
 }
